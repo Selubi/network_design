@@ -16,6 +16,11 @@
 \begin{document}
 \begin{CJK}{UTF8}{min}
     \maketitle
+    \section*{前書き}
+    このレポートのすべてのグラフはpythonで生成され、添付されたnotebook(.ipynb)で記載されている。
+    グラフの表現、描画はnetworkxライブラリーを使用している。
+
+    また、このレポートで集合は「\{\}」だけでなく「[]」でも表記される。(プログラムとの互換性のため)
     \newpage
     \section*{演習７ 問題１(グラフ基本)}
 
@@ -88,14 +93,14 @@
     \end{figure}
     上記のグラフはすべての頂点対の最小カットは３である。したがって、これは連結度３のグラフの一例である。
     コードですべての頂点対の最小カットを調べている。
-    
+
     \clearpage
     \section*{演習７問題６(頂点対の最大辺素経路)}
     \begin{figure}[!h]
         \centerline{\includegraphics[width=0.8\textwidth]{data/13.png}}
         \caption{グラフと最大辺素経路集合}
     \end{figure}
-    
+
     上記のグラフに対して、頂点対$[1,5]$の辺素な経路集合の経路数が$3$であり、
     それぞれ、$[1,0,4,5]$(赤)、$[1,5]$(青)、$[1,2,3,5]$(緑)である。
     そして、その同じサイズのカットは次通りである。
@@ -104,6 +109,14 @@
         \caption{Figure 13のカット}
     \end{figure}
 
+
+    \clearpage
+    \section*{演習７問題７(NA辺連結度)}
+    \begin{figure}[!h]
+        \centerline{\includegraphics[width=0.8\textwidth]{data/15.png}}
+        \caption{Node($1$)-to-Area($[ 0,3,4 ]$)連結度}
+    \end{figure}
+    上記の頂点$1$と領域$[0,3,4]$のNA辺連結は$4$であり、NA間の辺素経路をそれぞれの色で表せる。
 \end{CJK}
 
 
