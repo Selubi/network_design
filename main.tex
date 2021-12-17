@@ -18,7 +18,8 @@
     \maketitle
     \section*{前書き}
     このレポートのすべてのグラフはpythonで生成され、添付されたnotebook(.ipynb)で記載されている。
-    グラフの表現、描画はnetworkxライブラリーを使用している。
+    グラフの表現、描画はnetworkxライブラリーを使用している。また、アルゴリズム自体を説明すると記載されていない課題は
+    ライブラリーのアルゴリズム関数を用いる場合がある(演習7の連結度を決定するための最小カットなど)
 
     また、このレポートで集合は「\{\}」だけでなく「[]」でも表記される。(プログラムとの互換性のため)
     \newpage
@@ -117,6 +118,47 @@
         \caption{Node($1$)-to-Area($[ 0,3,4 ]$)連結度}
     \end{figure}
     上記の頂点$1$と領域$[0,3,4]$のNA辺連結は$4$であり、NA間の辺素経路をそれぞれの色で表せる。
+M
+    \clearpage
+    \section*{演習８ 問題３(k辺連結保存))}
+    Figure 12の２辺連結性保存を決めたい。コードでアルゴリズム自体を実装した。MA順序、辺順位決定の結果はFigure 16であり、
+    Figure 16で得られた辺順位が1と2を取るとFigure 17である2辺連結性保存全域部分グラフができる。ただし、MA順序決定の過程は
+    Figure 18で示され、辺順位の過程は Figure 19で示される（図の大きさの関係で結果が先に示す）
+    \begin{figure}[!h]
+        \centerline{\includegraphics[width=0.8\textwidth]{data/ex-8-F-7.png}}
+        \caption{MA順序、辺順位決定結果}
+    \end{figure}
+    
+    \begin{figure}[!h]
+        \centerline{\includegraphics[width=0.8\textwidth]{data/ex-8-2S.png}}
+        \caption{Figure 12の2辺連結性保存全域部分グラフ}
+    \end{figure}
+
+    \begin{figure}
+        \includegraphics[width=.49\textwidth]{data/ex-8-NA-1.png}\hfill
+        \includegraphics[width=.49\textwidth]{data/ex-8-NA-2.png}
+        \\[\smallskipamount]
+        \includegraphics[width=.49\textwidth]{data/ex-8-NA-3.png}\hfill
+        \includegraphics[width=.49\textwidth]{data/ex-8-NA-4.png}
+        \\[\smallskipamount]
+        \includegraphics[width=.49\textwidth]{data/ex-8-NA-5.png}\hfill
+        \includegraphics[width=.49\textwidth]{data/ex-8-NA-6.png}
+        \\[\smallskipamount]
+        \centerline{\includegraphics[width=.49\textwidth]{data/ex-8-NA-7.png}}
+        \caption{MA順序決定}
+    \end{figure}
+    \begin{figure}
+        \includegraphics[width=.49\textwidth]{data/ex-8-F-1.png}\hfill
+        \includegraphics[width=.49\textwidth]{data/ex-8-F-2.png}
+        \\[\smallskipamount]
+        \includegraphics[width=.49\textwidth]{data/ex-8-F-3.png}\hfill
+        \includegraphics[width=.49\textwidth]{data/ex-8-F-4.png}
+        \\[\smallskipamount]
+        \includegraphics[width=.49\textwidth]{data/ex-8-F-5.png}\hfill
+        \includegraphics[width=.49\textwidth]{data/ex-8-F-6.png}
+        \caption{辺の順位付け}
+    \end{figure}
+
 \end{CJK}
 
 
