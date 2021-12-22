@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.10.3)  22 DEC 2021 16:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.10.3)  23 DEC 2021 00:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1081,48 +1081,45 @@ File: data/ex-11-start.png Graphic file (type png)
 <use data/ex-11-start.png>
 Package pdftex.def Info: data/ex-11-start.png  used on input line 217.
 (pdftex.def)             Requested size: 276.00105pt x 184.00926pt.
-<data/ex-11-D-1.png, id=272, 433.62pt x 289.08pt>
-File: data/ex-11-D-1.png Graphic file (type png)
-<use data/ex-11-D-1.png>
-Package pdftex.def Info: data/ex-11-D-1.png  used on input line 221.
-(pdftex.def)             Requested size: 169.0519pt x 112.70103pt.
-<data/ex-11-D-2.png, id=273, 433.62pt x 289.08pt>
-File: data/ex-11-D-2.png Graphic file (type png)
-<use data/ex-11-D-2.png>
-Package pdftex.def Info: data/ex-11-D-2.png  used on input line 222.
-(pdftex.def)             Requested size: 169.0519pt x 112.70103pt.
-<data/ex-11-D-3.png, id=274, 433.62pt x 289.08pt>
-File: data/ex-11-D-3.png Graphic file (type png)
-<use data/ex-11-D-3.png>
-Package pdftex.def Info: data/ex-11-D-3.png  used on input line 224.
-(pdftex.def)             Requested size: 169.0519pt x 112.70103pt.
-<data/ex-11-D-4.png, id=275, 433.62pt x 289.08pt>
-File: data/ex-11-D-4.png Graphic file (type png)
-<use data/ex-11-D-4.png>
-Package pdftex.def Info: data/ex-11-D-4.png  used on input line 225.
-(pdftex.def)             Requested size: 169.0519pt x 112.70103pt.
-<data/ex-11-D-5.png, id=276, 433.62pt x 289.08pt>
-File: data/ex-11-D-5.png Graphic file (type png)
-<use data/ex-11-D-5.png>
-Package pdftex.def Info: data/ex-11-D-5.png  used on input line 227.
-(pdftex.def)             Requested size: 169.0519pt x 112.70103pt.
-<data/ex-11-D-6.png, id=277, 433.62pt x 289.08pt>
-File: data/ex-11-D-6.png Graphic file (type png)
-<use data/ex-11-D-6.png>
-Package pdftex.def Info: data/ex-11-D-6.png  used on input line 228.
-(pdftex.def)             Requested size: 169.0519pt x 112.70103pt.
-<data/ex-11-res.png, id=278, 433.62pt x 289.08pt>
+<data/ex-11-res.png, id=272, 433.62pt x 289.08pt>
 File: data/ex-11-res.png Graphic file (type png)
 <use data/ex-11-res.png>
-Package pdftex.def Info: data/ex-11-res.png  used on input line 233.
+Package pdftex.def Info: data/ex-11-res.png  used on input line 221.
 (pdftex.def)             Requested size: 276.00105pt x 184.00926pt.
+<data/ex-11-D-1.png, id=273, 433.62pt x 289.08pt>
+File: data/ex-11-D-1.png Graphic file (type png)
+<use data/ex-11-D-1.png>
+Package pdftex.def Info: data/ex-11-D-1.png  used on input line 225.
+(pdftex.def)             Requested size: 169.0519pt x 112.70103pt.
+<data/ex-11-D-2.png, id=274, 433.62pt x 289.08pt>
+File: data/ex-11-D-2.png Graphic file (type png)
+<use data/ex-11-D-2.png>
+Package pdftex.def Info: data/ex-11-D-2.png  used on input line 226.
+(pdftex.def)             Requested size: 169.0519pt x 112.70103pt.
+<data/ex-11-D-3.png, id=275, 433.62pt x 289.08pt>
+File: data/ex-11-D-3.png Graphic file (type png)
+<use data/ex-11-D-3.png>
+Package pdftex.def Info: data/ex-11-D-3.png  used on input line 228.
+(pdftex.def)             Requested size: 169.0519pt x 112.70103pt.
+<data/ex-11-D-4.png, id=276, 433.62pt x 289.08pt>
+File: data/ex-11-D-4.png Graphic file (type png)
+<use data/ex-11-D-4.png>
+Package pdftex.def Info: data/ex-11-D-4.png  used on input line 229.
+(pdftex.def)             Requested size: 169.0519pt x 112.70103pt.
+<data/ex-11-D-5.png, id=277, 433.62pt x 289.08pt>
+File: data/ex-11-D-5.png Graphic file (type png)
+<use data/ex-11-D-5.png>
+Package pdftex.def Info: data/ex-11-D-5.png  used on input line 231.
+(pdftex.def)             Requested size: 169.0519pt x 112.70103pt.
+<data/ex-11-D-6.png, id=278, 433.62pt x 289.08pt>
+File: data/ex-11-D-6.png Graphic file (type png)
+<use data/ex-11-D-6.png>
+Package pdftex.def Info: data/ex-11-D-6.png  used on input line 232.
+(pdftex.def)             Requested size: 169.0519pt x 112.70103pt.
 
-Overfull \hbox (8.86128pt too wide) in paragraph at lines 212--237
+Overfull \hbox (8.86128pt too wide) in paragraph at lines 212--236
 \OT1/cmr/m/n/10 Figure 27\C70/min/m/n/10/30 n ° é Õ k \C70/min/m/n/10/5b þ \C70/min/m/n/10/30 W f \C70/min/m/n/10/9e Ä \C70/min/m/n/10/82 r \C70/min/m/n/10/98 ^^B \C70/min/m/n/10/70 ¹ \C70/min/m/n/10/30 ’ \C70/min/m/n/10/68 9 \C70/min/m/n/10/30 h Y ‹ \C70/min/m/n/10/67 ^^@ \C70/min/m/n/10/77 í \C70/min/m/n/10/8d ï \C70/min/m/n/10/67 ( \C70/min/m/n/10/30 ’ \C70/min/m/n/10/4f \ \C70/min/m/n/10/30 Š _ D ^^B\OT1/cmr/m/n/10 djikstra\C70/min/m/n/10/30 ’
  []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [18
 
@@ -1130,40 +1127,88 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.0.27}) 
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
-l.240 \end{document}
-                     <./data/ex-11-start.png>] [19pdfTeX warning (ext4): destination with the same identifier (name{figure.0.28}) has been already used, duplicate ignored
+l.236 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.0.28}) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
-l.240 \end{document}
-                     <./data/ex-11-D-1.png> <./data/ex-11-D-2.png> <./data/ex-11-D-3.png> <./data/ex-11-D-4.png> <./data/ex-11-D-5.png> <./data/ex-11-D-6.png>] [20pdfTeX warning (ext4): destination with the same identifier (name{figure.0.29}) has been already used, duplicate ignored
+l.236 
+       <./data/ex-11-start.png> <./data/ex-11-res.png>] [19pdfTeX warning (ext4): destination with the same identifier (name{figure.0.29}) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
-l.240 \end{document}
-                     <./data/ex-11-res.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 240.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 240.
+l.238     \clearpage
+                     <./data/ex-11-D-1.png> <./data/ex-11-D-2.png> <./data/ex-11-D-3.png> <./data/ex-11-D-4.png> <./data/ex-11-D-5.png> <./data/ex-11-D-6.png>]
+<data/ex11-MF-start.png, id=302, 433.62pt x 289.08pt>
+File: data/ex11-MF-start.png Graphic file (type png)
+<use data/ex11-MF-start.png>
+Package pdftex.def Info: data/ex11-MF-start.png  used on input line 244.
+(pdftex.def)             Requested size: 276.00105pt x 184.00926pt.
+<data/ex11-MF-res.png, id=303, 433.62pt x 289.08pt>
+File: data/ex11-MF-res.png Graphic file (type png)
+<use data/ex11-MF-res.png>
+Package pdftex.def Info: data/ex11-MF-res.png  used on input line 248.
+(pdftex.def)             Requested size: 276.00105pt x 184.00926pt.
+<data/ex11-MF-1.png, id=304, 433.62pt x 289.08pt>
+File: data/ex11-MF-1.png Graphic file (type png)
+<use data/ex11-MF-1.png>
+Package pdftex.def Info: data/ex11-MF-1.png  used on input line 252.
+(pdftex.def)             Requested size: 169.0519pt x 112.70103pt.
+<data/ex11-MF-2.png, id=305, 433.62pt x 289.08pt>
+File: data/ex11-MF-2.png Graphic file (type png)
+<use data/ex11-MF-2.png>
+Package pdftex.def Info: data/ex11-MF-2.png  used on input line 253.
+(pdftex.def)             Requested size: 169.0519pt x 112.70103pt.
+<data/ex11-MF-3.png, id=306, 433.62pt x 289.08pt>
+File: data/ex11-MF-3.png Graphic file (type png)
+<use data/ex11-MF-3.png>
+Package pdftex.def Info: data/ex11-MF-3.png  used on input line 255.
+(pdftex.def)             Requested size: 169.0519pt x 112.70103pt.
+<data/ex11-MF-4.png, id=307, 433.62pt x 289.08pt>
+File: data/ex11-MF-4.png Graphic file (type png)
+<use data/ex11-MF-4.png>
+Package pdftex.def Info: data/ex11-MF-4.png  used on input line 256.
+(pdftex.def)             Requested size: 169.0519pt x 112.70103pt.
+ [20
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.0.30}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.260 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.0.31}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.260 
+       <./data/ex11-MF-start.png> <./data/ex11-MF-res.png>] [21pdfTeX warning (ext4): destination with the same identifier (name{figure.0.32}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.263 \end{document}
+                     <./data/ex11-MF-1.png> <./data/ex11-MF-2.png> <./data/ex11-MF-3.png> <./data/ex11-MF-4.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 263.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 263.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 240.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 240.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 263.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 263.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 240.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 263.
  ) 
 Here is how much of TeX's memory you used:
- 28815 strings out of 481239
- 675950 string characters out of 5920377
- 997052 words of memory out of 5000000
- 43169 multiletter control sequences out of 15000+600000
- 590960 words of font info for 254 fonts, out of 8000000 for 9000
+ 28894 strings out of 481239
+ 677273 string characters out of 5920377
+ 997050 words of memory out of 5000000
+ 43235 multiletter control sequences out of 15000+600000
+ 591227 words of font info for 255 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,7n,98p,844b,1145s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,7n,98p,844b,1156s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/wadalab/JIS/dmjhira.pfb></usr/share/texmf/fonts/type1/wadalab/JIS/dmjka.pfb></usr/share/texmf/fonts/type1/wadalab/JIS/dmjkata.pfb></usr/share/texmf/fonts/type1/wadalab/JIS/dmjkb.pfb></usr/share/texmf/fonts/type1/wadalab/JIS/dmjkc.pfb></usr/share/texmf/fonts/type1/wadalab/JIS/dmjkd.pfb></usr/share/texmf/fonts/type1/wadalab/JIS/dmjke.pfb></usr/share/texmf/fonts/type1/wadalab/JIS/dmjkf.pfb></usr/share/texmf/fonts/type1/wadalab/JIS/dmjkg.pfb></usr/share/texmf/fonts/type1/wadalab/JIS/dmjkh.pfb></usr/share/texmf/fonts/type1/wadalab/JIS/dmjki.pfb></usr/share/texmf/fonts/type1/wadalab/JIS/dmjkj.pfb></usr/share/texmf/fonts/type1/wadalab/JIS/dmjkk.pfb></usr/share/texmf/fonts/type1/wadalab/JIS/dmjkl.pfb></usr/share/texmf/fonts/type1/wadalab/JIS/dmjroma.pfb></usr/share/texmf/fonts/type1/wadalab/JIS/dmjsy.pfb>
-Output written on main.pdf (21 pages, 978109 bytes).
+Output written on main.pdf (22 pages, 1117468 bytes).
 PDF statistics:
- 386 PDF objects out of 1000 (max. 8388607)
- 194 compressed objects within 2 object streams
- 63 named destinations out of 1000 (max. 500000)
- 462 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 409 PDF objects out of 1000 (max. 8388607)
+ 202 compressed objects within 3 object streams
+ 68 named destinations out of 1000 (max. 500000)
+ 496 words of extra memory for PDF output out of 10000 (max. 10000000)
 

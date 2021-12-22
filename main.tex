@@ -210,12 +210,16 @@
     \clearpage
     \section*{演習１１問題１と２(ダイクストラ法最短路)}
     Figure 27のグラフに対して黄色頂点を根とする最短路木を作りたい。djikstraを用いた最短路木の探索
-    はFigure 28で示される。ただし、Figure 28の黄色頂点は今探索中の頂点であり、オレンジ色の頂点は次に探索する頂点である。
+    はFigure 29で示される。ただし、Figure 29の黄色頂点は今探索中の頂点であり、オレンジ色の頂点は次に探索する頂点である。
     また、各頂点に記載されている数字は暫定最短路であり、赤いエッジは全体の最短路木になるエッジを示す。
-    出来上がった最短路木はFigure 29で示される。
+    出来上がった最短路木はFigure 28で示される（頂点に付いている数字は根からの距離を示す）。
     \begin{figure}[!h]
         \centerline{\includegraphics[width=0.8\textwidth]{data/ex-11-start.png}}
         \caption{重み付きグラフ}
+    \end{figure}
+    \begin{figure}[!h]
+        \centerline{\includegraphics[width=0.8\textwidth]{data/ex-11-res.png}}
+        \caption{Figure 27の最短路木}
     \end{figure}
     \begin{figure}
         \includegraphics[width=.49\textwidth]{data/ex-11-D-1.png}\hfill
@@ -229,9 +233,28 @@
         \\[\smallskipamount]
         \caption{djikstra最短路過程}
     \end{figure}
+
+
+    \clearpage
+    \section*{演習１１問題５(最大フロー)}
+    ソースノードからシンクノードのパス有無を探すのにBFSを用いた。BFSも最大フローアルゴリズムも添付した.ipynbにゼロから実施した。
+    Figure 30のグラフに対して0から3の最大フローを求める。その最大フローはFigure 31で示され、最大フローは47であることが分かる。
+    最大フローを求める残余ネットワークの過程はFigure 32である。ここで、矢先に近い数字はその辺の容量である。
     \begin{figure}[!h]
-        \centerline{\includegraphics[width=0.8\textwidth]{data/ex-11-res.png}}
-        \caption{Figure 27の最短路木}
+        \centerline{\includegraphics[width=0.8\textwidth]{data/ex11-MF-start.png}}
+        \caption{容量付き有向グラフ}
+    \end{figure}
+    \begin{figure}[!h]
+        \centerline{\includegraphics[width=0.8\textwidth]{data/ex11-MF-res.png}}
+        \caption{Figure 30の最大フロー}
+    \end{figure}
+    \begin{figure}
+        \includegraphics[width=.49\textwidth]{data/ex11-MF-1.png}\hfill
+        \includegraphics[width=.49\textwidth]{data/ex11-MF-2.png}
+        \\[\smallskipamount]
+        \includegraphics[width=.49\textwidth]{data/ex11-MF-3.png}\hfill
+        \includegraphics[width=.49\textwidth]{data/ex11-MF-4.png}
+        \caption{Ford-Fulkerson最大フロー過程}
     \end{figure}
 \end{CJK}
 
