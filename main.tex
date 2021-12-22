@@ -118,17 +118,17 @@
         \caption{Node($1$)-to-Area($[ 0,3,4 ]$)連結度}
     \end{figure}
     上記の頂点$1$と領域$[0,3,4]$のNA辺連結は$4$であり、NA間の辺素経路をそれぞれの色で表せる。
-M
+    M
     \clearpage
     \section*{演習８ 問題３(k辺連結保存))}
     Figure 12の２辺連結性保存を決めたい。コードでアルゴリズム自体を実装した。MA順序、辺順位決定の結果はFigure 16であり、
     Figure 16で得られた辺順位が1と2を取るとFigure 17である2辺連結性保存全域部分グラフができる。ただし、MA順序決定の過程は
-    Figure 18で示され、辺順位の過程は Figure 19で示される（図の大きさの関係で結果が先に示す）
+    Figure 18で示され、辺順位決定の過程は Figure 19で示される（図の大きさの関係で結果が先に示す）。辺順位決定は逆順で行っていることに注意（コードが書きやすい）。
     \begin{figure}[!h]
         \centerline{\includegraphics[width=0.8\textwidth]{data/ex-8-F-7.png}}
         \caption{MA順序、辺順位決定結果}
     \end{figure}
-    
+
     \begin{figure}[!h]
         \centerline{\includegraphics[width=0.8\textwidth]{data/ex-8-2S.png}}
         \caption{Figure 12の2辺連結性保存全域部分グラフ}
@@ -159,6 +159,80 @@ M
         \caption{辺の順位付け}
     \end{figure}
 
+    \clearpage
+    \section*{演習９問題１(辺連結分解)}
+    Figure 1のグラフに対して辺連結分解を行う。見やすくするように、このグラフをレイアウト変更したグラフはFigure 20である。
+    このグラフの連結度は２である。言い換えれば、２辺連結成分はグラフの頂点集合と等しい(Figure 20 黄色頂点）。そして、このグラフの3辺連結成分
+    はFigure 21通りである。同じ色の頂点は同じ成分である。つまり、$V=[[0],[1,2,3,5,6],[4]]$。この方法はコード中のk\_edge\_decomposition(G,k)で実装され、
+    k\_edge\_decomposition(G,3)は３辺連結成分を計算する形になっている。
+    \begin{figure}[!h]
+        \centerline{\includegraphics[width=0.7\textwidth]{data/ex-9-K-2.png}}
+        \caption{Figure 1 の２辺連結成分}
+    \end{figure}
+    \begin{figure}[!h]
+        \centerline{\includegraphics[width=0.7\textwidth]{data/ex-9-K-3.png}}
+        \caption{Figure 1 の３辺連結成分}
+    \end{figure}
+
+    \clearpage
+    \section*{演習9 問題３(木の辺付加)}
+    連結性保存の時、２辺連結性保存のグラフがあるが、そのグラフの１辺連結性の保存を今回扱う木とする。深さ優先探索で
+    葉に順序をつけたのがFigure 22である。ただし、探索は赤頂点から開始されるとする。そして、アルゴリズム通り辺を付加すれば
+    Figure 23の２辺連結グラフになる。
+    \begin{figure}[!h]
+        \centerline{\includegraphics[width=0.8\textwidth]{data/ex9-def.png}}
+        \caption{赤頂点から深さ優先探索、葉には順序をつける}
+    \end{figure}
+    \begin{figure}[!h]
+        \centerline{\includegraphics[width=0.8\textwidth]{data/ex9-T.png}}
+        \caption{木の辺付加（付加した辺は赤）}
+    \end{figure}
+
+
+    \clearpage
+    \section*{演習１０問題１(直径増加抑制)}
+    Figure 24のグラフは直径４のグラフである。どの２つの辺を消しても直径が４のままのように保護辺を決めたい。
+    Figure 25がFigure 24の辺を頂点とするグラフであり。同時に２つの辺が切れたらグラフの直径が４より多くなったら辺を引く。
+    それの頂点被覆（黄色頂点の集合）が保護辺の集合となり、Figure 26で示す。
+    \begin{figure}[!h]
+        \centerline{\includegraphics[width=0.8\textwidth]{data/ex10-1.png}}
+        \caption{直径４のグラフ}
+    \end{figure}
+    \begin{figure}[!h]
+        \centerline{\includegraphics[width=0.8\textwidth]{data/ex10-2.png}}
+        \caption{Figure 24の辺を頂点とするグラフ、黄色頂点は頂点被覆集合}
+    \end{figure}
+    \begin{figure}[!h]
+        \centerline{\includegraphics[width=0.8\textwidth]{data/ex10-3.png}}
+        \caption{元のグラフの保護辺}
+    \end{figure}
+
+    \clearpage
+    \section*{演習１１問題１と２(ダイクストラ法最短路)}
+    Figure 27のグラフに対して黄色頂点を根とする最短路木を作りたい。djikstraを用いた最短路木の探索
+    はFigure 28で示される。ただし、Figure 28の黄色頂点は今探索中の頂点であり、オレンジ色の頂点は次に探索する頂点である。
+    また、各頂点に記載されている数字は暫定最短路であり、赤いエッジは全体の最短路木になるエッジを示す。
+    出来上がった最短路木はFigure 29で示される。
+    \begin{figure}[!h]
+        \centerline{\includegraphics[width=0.8\textwidth]{data/ex-11-start.png}}
+        \caption{重み付きグラフ}
+    \end{figure}
+    \begin{figure}
+        \includegraphics[width=.49\textwidth]{data/ex-11-D-1.png}\hfill
+        \includegraphics[width=.49\textwidth]{data/ex-11-D-2.png}
+        \\[\smallskipamount]
+        \includegraphics[width=.49\textwidth]{data/ex-11-D-3.png}\hfill
+        \includegraphics[width=.49\textwidth]{data/ex-11-D-4.png}
+        \\[\smallskipamount]
+        \includegraphics[width=.49\textwidth]{data/ex-11-D-5.png}\hfill
+        \includegraphics[width=.49\textwidth]{data/ex-11-D-6.png}
+        \\[\smallskipamount]
+        \caption{djikstra最短路過程}
+    \end{figure}
+    \begin{figure}[!h]
+        \centerline{\includegraphics[width=0.8\textwidth]{data/ex-11-res.png}}
+        \caption{Figure 27の最短路木}
+    \end{figure}
 \end{CJK}
 
 
