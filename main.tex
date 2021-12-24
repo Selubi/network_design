@@ -258,7 +258,7 @@
     \end{figure}
 
     \clearpage
-    \section*{演習１１問題５(最大フロー)}
+    \section*{演習１１問題６(最小コストフロー)}
     Figure 33は容量とコスト付きの有向グラフであり、最大フローを計算したらFigure 34になる。
     しかし、Figure 35のように最大フローを求めたあとの残余グラフにはシンクノードにおいて負閉路が存在する。
     この閉路消したあとの最大フロー最小コストグラフはFigure 36である。
@@ -278,7 +278,67 @@
     \begin{figure}[!h]
         \centerline{\includegraphics[width=0.8\textwidth]{data/ex12-MF-flow-result.png}}
         \caption{最小コスト最大フロー}
+
+
+
     \end{figure}
+    \clearpage
+    \section*{演習１２問題７＆８（多品種最大フロー）}
+    Figure 37のグラフを考える。Figure 37上にFigure 38のようなソースノード(S)とシンクノード(T)の対が与えられたとき、多品種最大フローを求める。
+    多品種最大フロー問題を線形計画問題として定式化してpythonのscipyライブラリーを用いて線形計画問題を解いた。その結果はFigure 38であり、多品種最大フローが17であることがわかる。
+    この問題は以下の線形計画問題として定式化できる。ただしここで、$x_{i-j}$は$(i,j)$に流れるフローである。
+    \begin{figure}[!h]
+        \centerline{\includegraphics[width=0.8\textwidth]{data/ex12-MC-base.png}}
+        \caption{容量付き有向グラフ}
+    \end{figure}
+    \begin{figure}[!h]
+        \centerline{\includegraphics[width=0.8\textwidth]{data/ex12-MC-start.png}}
+        \caption{ソースとシンクノードペア}
+    \end{figure}
+    \begin{figure}[!h]
+        \centerline{\includegraphics[width=0.8\textwidth]{data/ex12-MC-result.png}}
+        \caption{多品種最大フロー}
+    \end{figure}
+
+    目的変数（最大化）：
+    \[z=x_{0-1}+x_{0-2}+x_{3-1}+x_{3-4}+x_{8-2}+x_{8-9}\]
+    制約条件：
+    \[x_{0-1}+x_{0-2}=x_{4-7}+x_{5-7}\]
+    \[x_{3-1}+x_{3-4}=x_{9-6}+x_{10-6}\]
+    \[x_{8-2}+x_{8-9}=x_{10-11}+x_{5-11}\]
+    \[x_{1-4}+x_{1-5}=x_{0-1}+x_{3-1}+x_{2-1}\]
+    \[x_{2-5}+x_{2-9}+x_{2-10}+x_{2-1}=x_{0-2}+x_{8-2}\]
+    \[x_{4-5}+x_{4-7}=x_{3-4}+x_{1-4}\]
+    \[x_{5-7}+x_{5-11}=x_{1-5}+x_{2-5}+x_{4-5}+x_{10-5}\]
+    \[x_{9-6}=x_{8-9}+x_{2-9}+x_{10-9}\]
+    \[x_{10-6}+x_{10-11}+x_{10-9}+x_{10-5}=x_{2-10}\]
+    \[0\leq x_{0-1}\leq3\]
+    \[0\leq x_{0-2}\leq2\]
+    \[0\leq x_{1-4}\leq6\]
+    \[0\leq x_{1-5}\leq2\]
+    \[0\leq x_{2-5}\leq1\]
+    \[0\leq x_{2-9}\leq5\]
+    \[0\leq x_{2-10}\leq4\]
+    \[0\leq x_{2-1}\leq4\]
+    \[0\leq x_{3-1}\leq6\]
+    \[0\leq x_{3-4}\leq2\]
+    \[0\leq x_{4-5}\leq3\]
+    \[0\leq x_{4-7}\leq3\]
+    \[0\leq x_{5-7}\leq2\]
+    \[0\leq x_{5-11}\leq4\]
+    \[0\leq x_{8-2}\leq9\]
+    \[0\leq x_{8-9}\leq3\]
+    \[0\leq x_{9-6}\leq4\]
+    \[0\leq x_{10-6}\leq5\]
+    \[0\leq x_{10-11}\leq5\]
+    \[0\leq x_{10-9}\leq4\]
+    \[0\leq x_{10-5}\leq4\]
+    
+    
+    
+    
+
+
 \end{CJK}
 
 
